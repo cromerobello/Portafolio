@@ -256,6 +256,7 @@ plt.title('Diagrama de Caja y Bigotes')
 plt.ylabel('Valores')
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/854390e9-d7b5-4ed0-a13e-a80276ed32af)
 
 ```
 ```
@@ -309,6 +310,8 @@ sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
 plt.title('Matriz de correlación')
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/55d45afc-2075-4aa7-8cc8-d0e37c26be27)
+
 
 ```
 # Gráfico: Muestra la correlación entre las variables numéricas en forma de matriz de calor.
