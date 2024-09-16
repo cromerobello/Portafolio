@@ -241,14 +241,12 @@ data.isnull().sum()
 
 ## Visualización de los datos
 
-### a. Histograma del monto de las transacciones
-
 ```python
 import matplotlib.pyplot as plt
 
 ```
 
-### b. Gráfico de caja para identificar outliers en los montos de las transacciones, puntos de lealtad, cashback y comisiones por transacciones
+### a. Gráfico de caja para identificar outliers en los montos de las transacciones, puntos de lealtad, cashback y comisiones por transacciones
 
 ```python
 # Gráfico de caja (boxplot) para visualizar los outliers
@@ -259,6 +257,7 @@ plt.ylabel('Valores')
 plt.show()
 ```
 
+```
 ```
 # Gráfico: Muestra los outliers en las variables seleccionadas.
 
@@ -292,13 +291,13 @@ El boxplot mostrado visualiza la distribución y presencia de posibles valores a
    - Las otras variables (**transaction_fee**, **loyalty_points**, y **cashback**) muestran distribuciones más compactas y tienen valores relativamente pequeños en comparación con el monto de las transacciones.
    - Este análisis preliminar sugiere que las comisiones, los puntos de lealtad y el cashback no parecen tener una relación directa y evidente con el monto de la transacción, lo que requeriría un análisis más profundo para entender mejor las dinámicas de estas variables.
 
-
+```
 
 
 
 ```
 
-### c. Matriz de correlación entre las variables numéricas
+### b. Matriz de correlación entre las variables numéricas
 
 ```python
 import seaborn as sns
